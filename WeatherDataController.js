@@ -5,7 +5,7 @@ function tryGetRequest(city){
         return;
     }
 
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=8220b0180ac4a4f28505a8eed76e8d93`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=8220b0180ac4a4f28505a8eed76e8d93`)
     .then(res => res.json())
     .then(data=>{
 
